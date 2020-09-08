@@ -1,0 +1,72 @@
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+body {
+  background-image: url(stephen-leonardi-l66fxAw31fw-unsplash.jpg);
+}
+
+header {
+  height: 80px;
+  background-color: #181818;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  position: relative;
+}
+
+.logo {
+  position: absolute;
+  left: 0px;
+  color: white;
+  margin: 0px 15px;
+}
+
+nav {
+  color: white;
+  display: inline-block;
+  margin: 0px 1vw;
+  padding: 10px;
+  height: 40px;
+}
+
+#apply {
+  background-color: #00cae8;
+}
+
+.image-background {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 800px;
+  background-image: url('https://images.unsplash.com/photo-1599423561354-8447b03ab18e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60');
+  background-repeat: no-repeat;
+  color: white;
+  background-position: center;
+  background-size: cover;
+}
+
+footer {
+  background-color: orange;
+  height: 50px;
+  width: 50px;
+  position: fixed;
+  bottom: 40px;
+  right: 30px;
+  border-radius: 25px;
+}
+
+h1 {
+  margin: 40px;
+  font-size: 50px;
+}
+
+#video-link {
+  color: #00cae8;
+  margin: 80px;
+  font-size: 25px;
+}
+
